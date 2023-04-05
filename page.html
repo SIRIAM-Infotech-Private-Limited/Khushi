@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+div {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+h3{
+  text-align: center;
+  font-size: 30px;
+}
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+h2{
+  font-size: 40px;
+  text-align: center;
+}
+footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color:#45a049;
+   color: white;
+   text-align: center;
+}
+
+</style>
+</head>
+<body>
+
+<ul>
+  <li><a href="#home">Home</a></li>
+  <li><a href="#news">News</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li><a href="#about">About</a></li>
+</ul>
+<h3> HTML Form</h3>
+
+<div>
+  <form>
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+    </select>
+  
+    <input type="submit" value="Submit">
+  </form>
+
+  <h2>Image Gallery</h2>
+  <div class="gallery">
+    <a target="_blank" href="img1.jpeg">
+      <img src="img1.jpeg" alt="Cinque Terre" width="600" height="400">
+    </a>
+    <div class="desc">Animal</div>
+  </div>
+  
+  <div class="gallery">
+    <a target="_blank" href="img2.jpeg"">
+      <img src="img2.jpeg" alt="Forest" width="600" height="400">
+    </a>
+    <div class="desc">Animal</div>
+  </div>
+  
+  <div class="gallery">
+    <a target="_blank" href="img3.jpeg">
+      <img src="img3.jpeg" alt="Northern Lights" width="600" height="400">
+    </a>
+    <div class="desc">Animal</div>
+  </div>
+  <div class="gallery">
+    <a target="_blank" href="img1.jpeg">
+      <img src="img1.jpeg" alt="Cinque Terre" width="600" height="400">
+    </a>
+    <div class="desc">Animal</div>
+  </div>
+  
+  <div class="gallery">
+    <a target="_blank" href="img2.jpeg"">
+      <img src="img2.jpeg" alt="Forest" width="600" height="400">
+    </a>
+    <div class="desc">Animal</div>
+  </div>
+  
+  <div class="gallery">
+    <a target="_blank" href="img3.jpeg">
+      <img src="img3.jpeg" alt="Northern Lights" width="600" height="400">
+    </a>
+    <div class="desc">Animal</div>
+  </div>
+  <div class="gallery">
+    <a target="_blank" href="img1.jpeg">
+      <img src="img1.jpeg" alt="Cinque Terre" width="600" height="400">
+    </a>
+    <div class="desc">Animal</div>
+  </div>
+  
+  <div class="gallery">
+    <a target="_blank" href="img2.jpeg"">
+      <img src="img2.jpeg" alt="Forest" width="600" height="400">
+    </a>
+    <div class="desc">Animal</div>
+  </div>
+  
+  <div class="gallery">
+    <a target="_blank" href="img3.jpeg">
+      <img src="img3.jpeg" alt="Northern Lights" width="600" height="400">
+    </a>
+    <div class="desc">Animal</div>
+  </div>
+  <div class="gallery">
+    <a target="_blank" href="img1.jpeg">
+      <img src="img1.jpeg" alt="Cinque Terre" width="600" height="400">
+    </a>
+    <div class="desc">Animal</div>
+  </div>
+</div>
+<footer>
+  <p>Khushi Singh</p>
+  <p><a href="#">khushi@siriam.in</a></p>
+</footer>
+</body>
+</html>
+
+
